@@ -39,6 +39,16 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 
 //Write a function called doubleCheck that takes in an array
 //as a parameter.
+function doubleCheck (array){
+   
+  let check = array.indexOf('Chocolate') {
+    if (check === 'chocolate'){
+      array.push()
+    }
+  }
+    return array
+  }
+
 
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.

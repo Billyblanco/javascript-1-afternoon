@@ -37,21 +37,26 @@ let finalGreeting = (name) => {
 //Code Here
 var groceries = ["apples", "milk", "eggs", "bread"];
 
-//Write a function called doubleCheck that takes in an array
-//as a parameter.
-function doubleCheck (array){
-   
-  let check = array.indexOf('Chocolate') {
-    if (check === 'chocolate'){
-      array.push()
-    }
-  }
-    return array
-  }
 
 
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
+//Write a function called doubleCheck that takes in an array
+//as a parameter.
+
+  function doubleCheck(array){
+    let count = 0;
+    for (var i=0; i<array.length; i++){
+      if (array[i] == 'chocolate'){
+        count++
+      } 
+      if (count == 0){
+        array.push('chocolate')
+      }
+      return array;
+    }
+  }
+
 
 //Code Here
 
@@ -103,6 +108,16 @@ var ruff = dog.bark();
 //Return mySum.
 
 //Code Here
+function looper(array){
+  var mySum = 0;
+  for (var i = 0; i<array.length; i++){
+    if (array[i] % 2 != 0 || array[i] >= 100){
+      mySum +=array[i];
+    } 
+  }
+  return mySum;
+}
+
 
 //////////////////PROBLEM 7////////////////////
 
